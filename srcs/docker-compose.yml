@@ -1,0 +1,26 @@
+version: "3"
+
+volumes:
+  v_wordpress:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: /home/user42/Documents/inception/srcs/volumes/v_wordpress
+
+services:
+  nginx:
+    build: ./services/nginx 
+    ports:
+      - "80:80"
+    restart: "always"
+    volumes:
+      - "v_wordpress:/var/www:rw"
+
+  wordpress:
+    build: ./services/wp-php-fpm
+    ports:
+      - "9000:9000"
+    restart: "always"
+    volumes:
+      - "v_wordpress:/var/www:rw"
