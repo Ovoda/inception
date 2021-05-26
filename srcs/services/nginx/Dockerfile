@@ -1,9 +1,9 @@
 FROM	debian:buster
 
 RUN 	apt update -y && apt install -y nginx
+RUN	mkdir /run/php/ && touch /run/php/php7.3-fpm.sock && chmod 666 /run/php/php7.3-fpm.sock
 
-COPY	./default /etc/nginx/sites-enabled/
-COPY	./index.html /var/www/html/index.html
+COPY	nginx.conf /etc/nginx/nginx.conf 
 
 EXPOSE	80
 

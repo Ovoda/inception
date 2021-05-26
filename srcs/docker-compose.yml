@@ -1,5 +1,8 @@
 version: "3"
 
+networks:
+  inception:
+
 volumes:
   v_wordpress:
     driver: local
@@ -7,20 +10,47 @@ volumes:
       o: bind
       type: none
       device: /home/user42/Documents/inception/srcs/volumes/v_wordpress
+  v_database:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: /home/user42/Documents/inception/srcs/volumes/v_database
 
 services:
   nginx:
+    container_name: nginx
+    hostname: nginx
     build: ./services/nginx 
     ports:
       - "80:80"
     restart: "always"
     volumes:
       - "v_wordpress:/var/www:rw"
+    networks:
+      - inception
+        #depends_on:
+        # - php
 
-  wordpress:
+  php:
+    container_name: php
+    hostname: php
     build: ./services/wp-php-fpm
-    ports:
-      - "9000:9000"
     restart: "always"
     volumes:
       - "v_wordpress:/var/www:rw"
+    networks:
+      - inception
+
+  mariadb:
+    container_name: mariadb
+    hostname: mariadb
+    build: ./services/mariadb
+    restart: "always"
+    ports:
+      - "3306:3306"
+    volumes:
+      - "v_wordpress:/var/www:rw"
+      - "v_database:/var/www:rw"
+    networks:
+      - inception
