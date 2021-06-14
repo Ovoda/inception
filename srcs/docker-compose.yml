@@ -55,8 +55,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - "v_wordpress:/var/www:rw"
-      - "v_database:/var/www:rw"
+      - "v_database:/var/www/wordpress_db:rw"
     networks:
       - inception
     env_file: .env

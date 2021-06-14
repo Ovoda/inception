@@ -1,0 +1,175 @@
+2021-06-14 11:51:23 0 [Note] InnoDB: Using Linux native AIO
+2021-06-14 11:51:23 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-14 11:51:23 0 [Note] InnoDB: Uses event mutexes
+2021-06-14 11:51:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-14 11:51:23 0 [Note] InnoDB: Number of pools: 1
+2021-06-14 11:51:23 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-06-14 11:51:23 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-14 11:51:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-14 11:51:23 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-14 11:51:23 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-06-14 11:51:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-14 11:51:23 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-14 11:51:23 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-14 11:51:23 0 [Note] InnoDB: Waiting for purge to start
+2021-06-14 11:51:23 0 [Note] InnoDB: 10.3.27 started; log sequence number 1625707; transaction id 20
+2021-06-14 11:51:23 0 [Note] InnoDB: Loading buffer pool(s) from /var/www/wordpress_db/ib_buffer_pool
+2021-06-14 11:51:23 0 [Note] InnoDB: Buffer pool(s) load completed at 210614 11:51:23
+2021-06-14 11:51:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-14 11:51:23 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-06-14 11:51:23 0 [Note] Reading of all Master_info entries succeeded
+2021-06-14 11:51:23 0 [Note] Added new Master_info '' to hash table
+2021-06-14 11:51:23 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.3.27-MariaDB-0+deb10u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Debian 10
+2021-06-14 11:51:47 0 [Note] /usr/sbin/mysqld (initiated by: root[root] @ localhost []): Normal shutdown
+2021-06-14 11:51:47 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-06-14 11:51:47 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-06-14 11:51:47 0 [Note] InnoDB: Starting shutdown...
+2021-06-14 11:51:47 0 [Note] InnoDB: Dumping buffer pool(s) to /var/www/wordpress_db/ib_buffer_pool
+2021-06-14 11:51:47 0 [Note] InnoDB: Buffer pool(s) dump completed at 210614 11:51:47
+2021-06-14 11:51:49 0 [Note] InnoDB: Shutdown completed; log sequence number 2518820; transaction id 152
+2021-06-14 11:51:49 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-14 11:51:49 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2021-06-14 11:59:20 0 [Note] InnoDB: Using Linux native AIO
+2021-06-14 11:59:20 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-14 11:59:20 0 [Note] InnoDB: Uses event mutexes
+2021-06-14 11:59:20 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-14 11:59:20 0 [Note] InnoDB: Number of pools: 1
+2021-06-14 11:59:20 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-06-14 11:59:20 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-14 11:59:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-14 11:59:20 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-14 11:59:20 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2525143
+2021-06-14 11:59:21 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-06-14 11:59:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-14 11:59:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-14 11:59:21 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-14 11:59:21 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-14 11:59:21 0 [Note] InnoDB: Waiting for purge to start
+2021-06-14 11:59:21 0 [Note] InnoDB: 10.3.27 started; log sequence number 2525152; transaction id 175
+2021-06-14 11:59:21 0 [Note] InnoDB: Loading buffer pool(s) from /var/www/wordpress_db/ib_buffer_pool
+2021-06-14 11:59:21 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-14 11:59:21 0 [ERROR] Can't init tc log
+2021-06-14 11:59:21 0 [ERROR] Aborting
+
+2021-06-14 12:06:01 0 [Note] InnoDB: Using Linux native AIO
+2021-06-14 12:06:01 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-14 12:06:01 0 [Note] InnoDB: Uses event mutexes
+2021-06-14 12:06:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-14 12:06:01 0 [Note] InnoDB: Number of pools: 1
+2021-06-14 12:06:01 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-06-14 12:06:01 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-14 12:06:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-14 12:06:01 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-14 12:06:01 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2525161
+2021-06-14 12:06:02 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-06-14 12:06:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-14 12:06:02 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-14 12:06:02 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-14 12:06:02 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-14 12:06:02 0 [Note] InnoDB: Waiting for purge to start
+2021-06-14 12:06:02 0 [Note] InnoDB: 10.3.27 started; log sequence number 2525170; transaction id 175
+2021-06-14 12:06:02 0 [Note] InnoDB: Loading buffer pool(s) from /var/www/wordpress_db/ib_buffer_pool
+2021-06-14 12:06:02 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-14 12:06:02 0 [ERROR] Can't init tc log
+2021-06-14 12:06:02 0 [ERROR] Aborting
+
+2021-06-14 12:12:24 0 [Note] InnoDB: Using Linux native AIO
+2021-06-14 12:12:24 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-14 12:12:24 0 [Note] InnoDB: Uses event mutexes
+2021-06-14 12:12:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-14 12:12:24 0 [Note] InnoDB: Number of pools: 1
+2021-06-14 12:12:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-06-14 12:12:24 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-14 12:12:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-14 12:12:24 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-14 12:12:24 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2525204
+2021-06-14 12:12:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-06-14 12:12:24 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-14 12:12:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-14 12:12:24 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-14 12:12:24 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-14 12:12:24 0 [Note] InnoDB: 10.3.27 started; log sequence number 2525213; transaction id 175
+2021-06-14 12:12:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-14 12:12:24 0 [ERROR] Can't init tc log
+2021-06-14 12:12:24 0 [ERROR] Aborting
+
+2021-06-14 12:26:46 0 [Note] InnoDB: Using Linux native AIO
+2021-06-14 12:26:46 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-14 12:26:46 0 [Note] InnoDB: Uses event mutexes
+2021-06-14 12:26:46 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-14 12:26:46 0 [Note] InnoDB: Number of pools: 1
+2021-06-14 12:26:46 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-06-14 12:26:46 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-14 12:26:46 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-14 12:26:46 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-14 12:26:49 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-06-14 12:26:49 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-14 12:26:49 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-14 12:26:49 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-14 12:26:49 0 [Note] InnoDB: Waiting for purge to start
+2021-06-14 12:26:49 0 [Note] InnoDB: 10.3.27 started; log sequence number 2527778; transaction id 193
+2021-06-14 12:26:49 0 [Note] InnoDB: Loading buffer pool(s) from /var/www/wordpress_db/ib_buffer_pool
+2021-06-14 12:26:49 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-14 12:26:49 0 [Note] InnoDB: Buffer pool(s) load completed at 210614 12:26:49
+2021-06-14 12:26:49 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-06-14 12:26:50 0 [Note] Reading of all Master_info entries succeeded
+2021-06-14 12:26:50 0 [Note] Added new Master_info '' to hash table
+2021-06-14 12:26:50 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.3.27-MariaDB-0+deb10u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Debian 10
+2021-06-14 12:26:50 0 [Note] /usr/sbin/mysqld (initiated by: root[root] @ localhost []): Normal shutdown
+2021-06-14 12:26:50 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-06-14 12:26:50 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-06-14 12:26:50 0 [Note] InnoDB: Starting shutdown...
+2021-06-14 12:26:50 0 [Note] InnoDB: Dumping buffer pool(s) to /var/www/wordpress_db/ib_buffer_pool
+2021-06-14 12:26:50 0 [Note] InnoDB: Buffer pool(s) dump completed at 210614 12:26:50
+2021-06-14 12:26:52 0 [Note] InnoDB: Shutdown completed; log sequence number 2527787; transaction id 194
+2021-06-14 12:26:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-14 12:26:52 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2021-06-14 12:29:34 0 [Note] InnoDB: Using Linux native AIO
+2021-06-14 12:29:34 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-14 12:29:34 0 [Note] InnoDB: Uses event mutexes
+2021-06-14 12:29:34 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-14 12:29:34 0 [Note] InnoDB: Number of pools: 1
+2021-06-14 12:29:34 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-06-14 12:29:34 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-14 12:29:34 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-14 12:29:34 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-14 12:29:34 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2544655
+2021-06-14 12:29:34 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-06-14 12:29:34 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-14 12:29:34 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-14 12:29:34 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-14 12:29:34 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-14 12:29:34 0 [Note] InnoDB: Waiting for purge to start
+2021-06-14 12:29:35 0 [Note] InnoDB: 10.3.27 started; log sequence number 2544664; transaction id 237
+2021-06-14 12:29:35 0 [Note] InnoDB: Loading buffer pool(s) from /var/www/wordpress_db/ib_buffer_pool
+2021-06-14 12:29:35 0 [Note] InnoDB: Buffer pool(s) load completed at 210614 12:29:35
+2021-06-14 12:29:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-14 12:29:35 0 [ERROR] Can't init tc log
+2021-06-14 12:29:35 0 [ERROR] Aborting
+
+2021-06-14 12:38:19 0 [Note] InnoDB: Using Linux native AIO
+2021-06-14 12:38:19 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-14 12:38:19 0 [Note] InnoDB: Uses event mutexes
+2021-06-14 12:38:19 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-14 12:38:19 0 [Note] InnoDB: Number of pools: 1
+2021-06-14 12:38:19 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-06-14 12:38:19 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-14 12:38:19 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-14 12:38:19 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-14 12:38:19 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2561747
+2021-06-14 12:38:19 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-06-14 12:38:19 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-14 12:38:19 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-14 12:38:19 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-14 12:38:19 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-14 12:38:19 0 [Note] InnoDB: Waiting for purge to start
+2021-06-14 12:38:19 0 [Note] InnoDB: 10.3.27 started; log sequence number 2561756; transaction id 291
+2021-06-14 12:38:19 0 [Note] InnoDB: Loading buffer pool(s) from /var/www/wordpress_db/ib_buffer_pool
+2021-06-14 12:38:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-14 12:38:19 0 [ERROR] Can't init tc log
+2021-06-14 12:38:19 0 [ERROR] Aborting
+
