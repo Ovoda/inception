@@ -1,5 +1,7 @@
 FROM	debian:buster
 
+COPY	. /
+
 RUN 	apt update -y && apt install -y nginx
 RUN	mkdir /run/php/ && touch /run/php/php7.3-fpm.sock && chmod 666 /run/php/php7.3-fpm.sock
 

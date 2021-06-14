@@ -1,7 +1,9 @@
+IMAGE	=	docker images -a
+
 all:
 	docker-compose -f ./srcs/docker-compose.yml up -d --build 
-clean_i:
-	docker rmi $(docker images -a)
+down:
+	docker-compose -f ./srcs/docker-compose.yml down
 
 clean_c:
 	docker rm $(docker ps -aq)

@@ -9,13 +9,13 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: /home/user42/Documents/inception/srcs/volumes/v_wordpress
+      device: /home/user42/data/v_wordpress
   v_database:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /home/user42/Documents/inception/srcs/volumes/v_database
+      device: /home/user42/data/v_database
 
 services:
   nginx:
@@ -23,14 +23,16 @@ services:
     hostname: nginx
     build: ./services/nginx 
     ports:
+      - "443:443"
       - "80:80"
     restart: "always"
     volumes:
       - "v_wordpress:/var/www:rw"
     networks:
       - inception
-        #depends_on:
-        # - php
+    depends_on:
+      - php
+    env_file: .env
 
   php:
     container_name: php
@@ -41,6 +43,9 @@ services:
       - "v_wordpress:/var/www:rw"
     networks:
       - inception
+    depends_on:
+      - mariadb
+    env_file: .env
 
   mariadb:
     container_name: mariadb
@@ -54,3 +59,4 @@ services:
       - "v_database:/var/www:rw"
     networks:
       - inception
+    env_file: .env

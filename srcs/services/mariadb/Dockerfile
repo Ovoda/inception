@@ -1,14 +1,15 @@
 FROM	debian:buster
 
+RUN	mkdir /work_dir/
+
+COPY	my.cnf /etc/mysql/my.cnf
+COPY	. .
+
 RUN	apt-get update
-RUN	apt-get install -y mariadb-server
-RUN	echo "[mysqld]" > /etc/mysql/my.cnf 
-RUN	echo "bind = 0.0.0.0" >> /etc/mysql/my.cnf
-RUN	echo "port = 3306" >> /etc/mysql/my.cnf
-RUN	mkdir /run/mysqld
-RUN	touch /run/mysqld/mysqld.sock
-RUN	chmod 666 /run/mysqld/mysqld.sock
+RUN	apt-get install -y mariadb-server mariadb-server dumb-init
+
 
 EXPOSE	3306
 
-CMD	["/usr/sbin/mysqld", "-u", "root"]
+ENTRYPOINT	["/usr/bin/dumb-init"]
+CMD		["./setup_db.sh"]
